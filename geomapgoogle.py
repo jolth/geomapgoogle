@@ -23,7 +23,7 @@ def geocode(address, sensor='false', **geo_args):
 	url = GEOCODE_BASE_URL + '?' + urllib.urlencode(geo_args)
 	result = json.load(urllib.urlopen(url))
 	return json.dumps([s['formatted_address']
-						for s in result['results']])
+	                   for s in result['results']])
 
 
 
@@ -39,5 +39,5 @@ def regeocode(latlng, sensor='false', **geo_args):
 	url = GEOCODE_BASE_URL + '?' + urllib.urlencode(geo_args)
 	result = json.load(urllib.urlopen(url))
 	return json.dumps([s['formatted_address'] 
-						for s in result['results']])
+                       for s in result['results']])
 
