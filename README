@@ -3,9 +3,13 @@ Módulo desarrollado en Python que realiza Geocoding y Reverse Geocoding, con la
 Example:
 
 >>> import geomapgoogle
->>> # Geocode
->>> geomapgoogle.geocode('San Francisco')
+>>> 
 >>> # Reverse Geocode
->>> geomapgoogle.regeocode(latlng='40.714224,-73.961452')
+>>> geomapgoogle.regeocode(latlng='1.86616,-76.03934')
+'["Calle 31 # 2 a 100, Pitalito, Huila, Colombia", "Pitalito, Huila, Colombia", "Huila, Colombia", "Colombia"]'
+>>> # Geocode
+>>> geomapgoogle.geocode('Manizales')
+'["Manizales, Caldas, Colombia"]'
+
 
 http://jolthgs.wordpress.com/desarrollos/geomapgoogle/
