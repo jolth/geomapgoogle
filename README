@@ -5,8 +5,8 @@ Example:
 >>> import geomapgoogle
 >>> 
 >>> # Reverse Geocode
->>> geomapgoogle.regeocode(latlng='1.86616,-76.03934')
-'["Calle 31 # 2 a 100, Pitalito, Huila, Colombia", "Pitalito, Huila, Colombia", "Huila, Colombia", "Colombia"]'
+>>> geomapgoogle.regeocode(latlng='5.06798,-75.51738')
+'["Carrera 22 # 22-2 a 22-100, Manizales, Caldas, Colombia", "Manizales, Caldas, Colombia", "Caldas, Colombia", "Colombia"]'
 >>> # Geocode
 >>> geomapgoogle.geocode('Manizales')
 '["Manizales, Caldas, Colombia"]'
